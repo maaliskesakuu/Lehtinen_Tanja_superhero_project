@@ -2,7 +2,6 @@
 
 const path = require("path");
 const url = require("url");
-const fileHandler = require("../library/fileHandler");
 
 module.exports = (baseDir, dataStorage, config) => {
   const { send, sendJson, isIn } = require(path.join(
@@ -14,8 +13,7 @@ module.exports = (baseDir, dataStorage, config) => {
   const { read } = require(path.join(
     baseDir,
     config.libraryFolder,
-    config,
-    fileHandler
+    config.fileHandler
   ));
 
   const menuPath = path.join(baseDir, config.webPagesFolder, config.menuFile);

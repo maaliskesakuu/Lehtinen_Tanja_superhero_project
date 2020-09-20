@@ -9,7 +9,7 @@ function createDataStorage(baseDir, config) {
   const { CODES, MESSAGES } = require(path.join(
     baseDir,
     config.errorCodeFolder,
-    error.errorCodes
+    config.errorCodes
   ));
 
   const { read, write } = require(path.join(
@@ -181,7 +181,7 @@ function createDataStorage(baseDir, config) {
     }
   }
 
-  return new createDataStorage();
+  return new Datastorage();
 }
 
 module.exports = {
