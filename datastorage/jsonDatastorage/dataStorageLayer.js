@@ -8,8 +8,8 @@ const storageFile = path.join(__dirname, storageConfig.storageFile);
 function createDataStorage(baseDir, config) {
   const { CODES, MESSAGES } = require(path.join(
     baseDir,
-    config.erorCodeFolder,
-    error.erroCodes
+    config.errorCodeFolder,
+    error.errorCodes
   ));
 
   const { read, write } = require(path.join(
