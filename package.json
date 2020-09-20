@@ -1,0 +1,23 @@
+{
+  "name": "lehtinen_tanja_superhero_project",
+  "version": "1.0.0",
+  "description": "school project in Node.js and MariaDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maaliskesakuu/Lehtinen_Tanja_superhero_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maaliskesakuu/Lehtinen_Tanja_superhero_project/issues"
+  },
+  "homepage": "https://github.com/maaliskesakuu/Lehtinen_Tanja_superhero_project#readme",
+  "dependencies": {
+    "mariadb": "^2.4.2"
+  }
+}
