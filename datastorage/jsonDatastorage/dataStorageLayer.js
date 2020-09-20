@@ -20,7 +20,7 @@ function createDataStorage(baseDir, config) {
 
   async function readStorage() {
     try {
-      const data = await readStorage(storageFile);
+      const data = await read(storageFile);
       return Promise.resolve(JSON.parse(data.fileData));
     } catch (err) {
       writeLog(err.message);

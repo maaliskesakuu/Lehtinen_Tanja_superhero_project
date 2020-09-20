@@ -1,7 +1,7 @@
 {
   "logfile": {
     "filename": "logfile.log",
-    "flags": "a"
+    "flags": "w"
   },
   "datastorage": {
     "dataStorageFolder": "datastorage",
