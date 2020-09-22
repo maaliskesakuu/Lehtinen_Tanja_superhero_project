@@ -31,7 +31,7 @@
         "heroID": 2,
         "name": "SuperMoron",
         "superproperty": "flash",
-        "yearOfBirth": 1890,
+        "yearOfBirth": 1960,
         "strength": "*"
     },
     {
@@ -50,9 +50,9 @@
     },
     {
         "heroID": 10,
-        "name": "MightyDuck",
-        "superproperty": "kvaak",
-        "yearOfBirth": 1980,
-        "strength": "*"
+        "name": "MightyTurkey aka Hömeli",
+        "superproperty": "puli puli",
+        "yearOfBirth": 2016,
+        "strength": "***********"
     }
 ]

@@ -24,7 +24,7 @@
     "/getOnePage": "getOne.html",
     "/insertPage": "insert.html",
     "/updatePage": "update.html",
-    "/deletePage": "delete.html"
+    "/removePage": "remove.html"
   },
   "webPagesFolder": "webPages",
   "menuFile": "menu.html"

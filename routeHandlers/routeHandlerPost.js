@@ -25,7 +25,7 @@ module.exports = (baseDir, dataStorage, config) => {
         const result = await getPostData(req, "application/json");
         const queryResult = await dataStorage.update(result);
         sendJson(res, queryResult);
-      } else if (route === "/delete") {
+      } else if (route === "/remove") {
         const result = await getPostData(req, "application/json");
         const queryResult = await dataStorage.remove(result.heroID);
         sendJson(res, queryResult);

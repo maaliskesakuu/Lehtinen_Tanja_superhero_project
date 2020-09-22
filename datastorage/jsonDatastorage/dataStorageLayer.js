@@ -54,7 +54,7 @@ function createDataStorage(baseDir, config) {
       async function getFromStorage(id) {
         let storage = await readStorage();
         for (let superhero of storage) {
-          if ((superhero.heroID = +id)) {
+          if (superhero.heroID == +id) {
             return superhero;
           }
         }
@@ -168,11 +168,11 @@ function createDataStorage(baseDir, config) {
       }
 
       return new Promise(async (resolve) => {
-        if (!heroID) {
+        if (!id) {
           resolve(MESSAGES.NOT_FOUND("<empty>"));
         } else {
           if (await deleteFromStorage(id)) {
-            resolve(MESSAGES.DELETE_OK(heroID));
+            resolve(MESSAGES.DELETE_OK(id));
           } else {
             resolve(MESSAGES.NOT_DELETED());
           }
