@@ -11,11 +11,11 @@ module.exports = (baseDir, dataStorage, config) => {
   ));
 
   return async (req, res) => {
-    const route = decodeURIComponent(url.parese(req.url).pathname);
+    const route = decodeURIComponent(url.parse(req.url).pathname);
     try {
       if (route === "/getOne") {
         const result = await getPostData(req, "application/json");
-        const queryResult = await dataStorage.get(result.heroID);
+        const queryResult = await dataStorage.getOne(result.heroID);
         sendJson(res, queryResult);
       } else if (route === "/insert") {
         const result = await getPostData(req, "application/json");
@@ -33,6 +33,7 @@ module.exports = (baseDir, dataStorage, config) => {
         writeLog("Post route not found");
       }
     } catch (err) {
+      console.log(err)
       writeLog(err.message);
     }
   };

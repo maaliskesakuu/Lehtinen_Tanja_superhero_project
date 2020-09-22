@@ -32,7 +32,7 @@ const isIn = (route, ...routes) => {
   return false;
 };
 
-const getPostData = (req, contentType) => {
+const getPostData = (req, contentType) =>
   new Promise((resolve, reject) => {
     if (req.headers["content-type"] !== contentType) {
       reject("Wrong Content-Type");
@@ -43,13 +43,13 @@ const getPostData = (req, contentType) => {
       } else if (contentType === "application/json") {
         parse = JSON.parse;
       }
+
       let databuffer = [];
       req.on("data", (messageFragment) => databuffer.push(messageFragment));
       req.on("end", () => resolve(parse(Buffer.concat(databuffer).toString())));
       req.on("error", () => reject("Error during the data transfer."));
     }
   });
-};
 
 module.exports = {
   send,

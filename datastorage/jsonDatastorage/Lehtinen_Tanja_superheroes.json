@@ -1,51 +1,58 @@
 [
-  {
-    "heroID": 4,
-    "name": "DataMaster",
-    "superproperty": "timer",
-    "yearOfBirth": 1960,
-    "strength": "*"
-  },
-  {
-    "heroID": 7,
-    "name": "SuperQL",
-    "superproperty": "evil eye",
-    "yearOfBirth": 1990,
-    "strength": "****"
-  },
-  {
-    "heroID": 3,
-    "name": "SteelFoot",
-    "superproperty": "amnesia",
-    "yearOfBirth": 1905,
-    "strength": "***"
-  },
-  {
-    "heroID": 6,
-    "name": "SuperGenius",
-    "superproperty": "ridiculously fast",
-    "yearOfBirth": 1930,
-    "strength": "**"
-  },
-  {
-    "heroID": 2,
-    "name": "SuperMoron",
-    "superproperty": "flash",
-    "yearOfBirth": 1890,
-    "strength": "*"
-  },
-  {
-    "heroID": 5,
-    "name": "Lightning",
-    "superproperty": "healer",
-    "yearOfBirth": 2017,
-    "strength": "*****"
-  },
-  {
-    "heroID": 1,
-    "name": "Rustman",
-    "superproperty": "quantum stare",
-    "yearOfBirth": 2012,
-    "strength": "**"
-  }
+    {
+        "heroID": 4,
+        "name": "DataMaster",
+        "superproperty": "timer",
+        "yearOfBirth": 1960,
+        "strength": "*"
+    },
+    {
+        "heroID": 7,
+        "name": "SuperQL",
+        "superproperty": "evil eye",
+        "yearOfBirth": 1990,
+        "strength": "****"
+    },
+    {
+        "heroID": 3,
+        "name": "SteelFoot",
+        "superproperty": "amnesia",
+        "yearOfBirth": 1905,
+        "strength": "***"
+    },
+    {
+        "heroID": 6,
+        "name": "SuperGenius",
+        "superproperty": "ridiculously fast",
+        "yearOfBirth": 1930,
+        "strength": "**"
+    },
+    {
+        "heroID": 2,
+        "name": "SuperMoron",
+        "superproperty": "flash",
+        "yearOfBirth": 1890,
+        "strength": "*"
+    },
+    {
+        "heroID": 5,
+        "name": "Lightning",
+        "superproperty": "healer",
+        "yearOfBirth": 2017,
+        "strength": "*****"
+    },
+    {
+        "heroID": 1,
+        "name": "Rustman",
+        "superproperty": "quantum stare",
+        "yearOfBirth": 2012,
+        "strength": "**"
+    },
+    {
+        "heroID": 10,
+        "name": "MightyDuck",
+        "superproperty": "kvaak",
+        "yearOfBirth": 1980,
+        "strength": "*"
+    }
 ]
