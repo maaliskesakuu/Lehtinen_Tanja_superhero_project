@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #f6f7eb;
+}
+
+main {
+  margin-top: 5rem;
+  display: grid;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 2rem;
+  font-weight: bolder;
+  color: #393e41;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 1rem;
+  margin: 0.5rem auto;
+  border: none;
+  box-shadow: 0 0.2rem 0.3rem #393e41;
+  border-radius: 5px;
+  background-color: #5c415d;
+  color: white;
+  text-transform: uppercase;
+  font-size: larger;
+  width: 20rem;
+}
+
+button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  box-shadow: 0 0.2rem 0.4rem #393e41, 0 0.1rem 0.5rem #393e41;
+}
+
+button,
+input {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#resultarea, #messagearea {
+    margin: 1rem 0;
+    line-height: 1.6rem;
+    font-size: larger;
+}
+
+table,
+th,
+td {
+  border: 1px solid #393e41;
+  padding: 0.7rem;
+}
+
+th {
+  font-weight: bolder;
+  background-color: #393e41;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #e94f37;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #fffc31;
+}
+
+label {
+  font-size: larger;
+  padding-right: 1rem;
+}
+
+input {
+  border: none;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 10rem;
+  box-shadow: 0 0.25rem .1rem #393e41;
+}
+
+input[readonly] {
+    background-color: #fffc31;
+}
+
+.error {
+    font-weight: bolder;
+    color: #e94f37;
+}
+
+.info {
+    font-weight: bolder;
+    color: #393e41;
+}
